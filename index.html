@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><b><mark>Novell Services Login</mark></b></h1>
+    <form >
+    <table>    
+    <tr>
+    <td> <label for="Username:">Username:</label></td>
+    <td><input type="text" id="Username:"></td>
+    </tr>
+    <tr>
+    <td><label for="Password">Password:</label></td> 
+    <td><input type="password" id="Password"></td>
+    </tr>
+    <tr>
+    <td><label for="City of Employment:">City of<br>Employment:</label></td>
+    <td><input type="text" id="City of Employment:"></td>
+    </tr>
+    <tr>
+    <td><label for="server">Web Server:</label></td>
+    <td><select name="server" id="Server">
+    <option value="">-- Choose a Server --</option></select></td>
+    </tr>
+    <tr>
+        <td><label>Plz Spicefy <br> Your Roll:</label><br></td>
+       <td><input type="radio" id="admin" name="role" value="admin">
+        <label for="admin">Admin</label><br>
+        <input type="radio" id="engineer" name="role" value="engineer">
+        <label for="engineer">Engineer</label><br>
+        <input type="radio" id="manager" name="role" value="manager">
+       <label for="manager">Manager</label><br>
+       <input type="radio" id="guest" name="role" value="guest">
+       <label for="guest">Guest</label></td>
+    </tr>
+    <tr>
+        <td><label>Single Sign-on <br> to the following:</label></td>
+        <td><input type="checkbox" id="mail" name="sso" value="mail">
+        <label for="mail">Mail</label><br>
+        <input type="checkbox" id="payroll" name="sso" value="payroll">
+        <label for="payroll">Payroll</label><br>
+        <input type="checkbox" id="selfservice" name="sso" value="selfservice">
+        <label for="selfservice">Self-service</label></td>
+    </tr>
+    <tr>
+        <td><input type="submit" value="Login">
+        <input type="reset" value="Reset"></td>
+    </tr>
+    </table>
+    </form>
+    </body>
+    </html>
